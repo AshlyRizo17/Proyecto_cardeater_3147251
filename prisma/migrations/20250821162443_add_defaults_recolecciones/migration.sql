@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE `recolecciones` ADD COLUMN `Canti_estimada` INTEGER NOT NULL DEFAULT 0,
+    ADD COLUMN `Capacidad` INTEGER NOT NULL DEFAULT 0,
+    ADD COLUMN `Estado_residuo` VARCHAR(191) NOT NULL DEFAULT '',
+    ADD COLUMN `Tipo_residuo` VARCHAR(191) NOT NULL DEFAULT '',
+    ADD COLUMN `Ubicacion` VARCHAR(191) NOT NULL DEFAULT '';
